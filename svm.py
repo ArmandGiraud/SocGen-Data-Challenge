@@ -50,7 +50,7 @@ class SVM(object):
         # Lagrange multipliers
         a = np.ravel(solution['x'])
 
-        # Support vectors are non zero lagrange multipliers
+        # Support vectors have non zero lagrange multipliers
         sv = a > 1e-5
         ind = np.arange(len(a))[sv]
         self.a = a[sv]
