@@ -1,3 +1,5 @@
+# Mathieu Blondel, September 2010
+
 import numpy as np
 from numpy import linalg
 import cvxopt
