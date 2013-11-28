@@ -1,4 +1,5 @@
 # Mathieu Blondel, September 2010
+# License: BSD 3 clause
 
 import numpy as np
 from numpy import linalg
